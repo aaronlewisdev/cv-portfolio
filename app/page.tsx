@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </header>
 
-        {/* Navigation */}
+        {/* TODO Navigation */}
         {/* <nav className="mb-6 pb-4 border-b border-slate-200 dark:border-slate-700">
           <ul className="flex gap-6">
             <li>
@@ -105,7 +105,17 @@ export default function Home() {
                         Software Development Consultant
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400 font-medium">
-                        Opencast | B Corp™
+                        <a 
+                          href="https://opencastsoftware.com/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-1.5 group"
+                        >
+                          Opencast | B Corp™
+                          <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
                       </p>
                     </div>
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 mt-2 sm:mt-0">
@@ -142,7 +152,17 @@ export default function Home() {
                   {/* Swarm Energy */}
                   <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
                     <h4 className="font-bold text-slate-900 dark:text-slate-100 mb-3 text-lg">
-                      Swarm Energy Limited
+                      <a 
+                        href="https://help.swarm.eco/portal/en/home" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors inline-flex items-center gap-1.5 group"
+                      >
+                        Swarm Energy Limited
+                        <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </a>
                     </h4>
                     <ul className="space-y-2 text-slate-700 dark:text-slate-300">
                       <li className="flex gap-3">
@@ -167,7 +187,17 @@ export default function Home() {
                   {/* DWP Projects */}
                   <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
                     <h4 className="font-bold text-slate-900 dark:text-slate-100 mb-3 text-lg">
-                      Financial Eligibility & Decisioning Platforms (DWP)
+                      <a 
+                        href="https://www.gov.uk/government/organisations/department-for-work-pensions" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors inline-flex items-center gap-1.5 group"
+                      >
+                        Financial Eligibility & Decisioning Platforms (DWP)
+                        <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </a>
                     </h4>
                     <ul className="space-y-2 text-slate-700 dark:text-slate-300">
                       <li className="flex gap-3">
@@ -206,7 +236,17 @@ export default function Home() {
                         Full-Stack Software Engineer
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400 font-medium">
-                        CDSM Ltd.
+                        <a 
+                          href="https://thinqi.com/" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors inline-flex items-center gap-1.5 group"
+                        >
+                          CDSM Ltd.
+                          <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
                       </p>
                     </div>
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 mt-2 sm:mt-0">
@@ -241,7 +281,17 @@ export default function Home() {
                         Full-Stack Software Engineer Intern
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400 font-medium">
-                        Driver and Vehicle Licensing Agency
+                        <a 
+                          href="https://www.gov.uk/apply-driver-digital-tachograph-card" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="hover:text-purple-600 dark:hover:text-purple-400 transition-colors inline-flex items-center gap-1.5 group"
+                        >
+                          Driver and Vehicle Licensing Agency
+                          <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
                       </p>
                     </div>
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 mt-2 sm:mt-0">
@@ -417,7 +467,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Projects Preview Section */}
+        {/* TODO Projects Preview Section */}
         {/* <section className="mb-12">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
@@ -486,9 +536,6 @@ export default function Home() {
         <footer className="pt-12 mt-12 border-t border-slate-200/50 dark:border-slate-700/50 text-center">
           <p className="text-slate-500 dark:text-slate-500 text-sm">
             © {new Date().getFullYear()} Aaron Lewis. All rights reserved.
-          </p>
-          <p className="text-slate-400 dark:text-slate-600 text-xs mt-2">
-            Built with Next.js & Tailwind CSS
           </p>
         </footer>
       </div>
