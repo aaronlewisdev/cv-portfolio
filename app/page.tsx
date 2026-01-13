@@ -332,7 +332,7 @@ export default function Home() {
                 Core Backend & Platform
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Java', 'Kotlin', 'Spring Boot', 'WebFlux', 'Event-Driven Architecture', 'Microservices'].map((skill) => (
+                {['Java', 'Kotlin', 'Spring Boot', 'WebFlux', 'Microservices', 'Event-Driven Architecture'].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30 text-blue-700 dark:text-blue-300 rounded-lg text-sm font-medium border border-blue-200/50 dark:border-blue-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
