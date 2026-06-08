@@ -13,11 +13,11 @@ export default function Home() {
             <div className="flex items-center gap-2 mb-4">
               <div className="h-1 w-12 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full"></div>
               <p className="text-xl sm:text-2xl font-medium text-slate-700 dark:text-slate-300">
-                Senior Backend & Platform Engineer
+                Software Engineer
               </p>
             </div>
             <p className="text-lg text-slate-500 dark:text-slate-400 font-medium">
-              Financial & Regulated Systems
+              Building distributed systems, cloud-native platforms and event-driven architectures.
             </p>
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
@@ -71,11 +71,8 @@ export default function Home() {
         <section className="mb-16 mt-8">
           <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-slate-200/50 dark:border-slate-700/50 shadow-sm hover:shadow-md transition-shadow">
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed text-lg">
-              Senior backend-focused software engineer with extensive experience designing and delivering secure, 
-              cloud-native financial and eligibility platforms in highly regulated environments. Proven track record 
-              building event-driven, transactional microservices and decisioning systems that determine financial 
-              outcomes and handle sensitive data at scale. Experienced operating under strict compliance, audit, 
-              and availability requirements, with a strong interest in fintech, payments, and digital asset platforms.
+            Software engineer with 6+ years of experience designing and delivering distributed, cloud-native platforms across the public sector, l&d and energy industries. 
+            Experienced building event-driven systems, including financial decisioning services, home energy optimisation platforms and secure third-party integrations. Strong background in developing resilient, scalable services operating under regulatory, audit and availability requirements, with a particular interest in fintech, payments and large-scale backend systems.
             </p>
           </div>
         </section>
@@ -125,100 +122,119 @@ export default function Home() {
                   <ul className="space-y-2.5 text-slate-700 dark:text-slate-300">
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Delivered backend platforms where correctness directly impacted financial eligibility, entitlement, and downstream payment outcomes, requiring high confidence in data integrity and decision logic.</span>
+                      <span>Designed and delivered backend services supporting financial eligibility and entitlement decisions, where system correctness directly influenced payment outcomes for citizens.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Led development of event-driven, transactional microservices using Java, Kotlin, Spring Boot, and WebFlux, operating under strict governance and audit requirements.</span>
+                      <span>Designed and built event-driven microservices using Java, Kotlin, Spring Boot and WebFlux, supporting high-volume eligibility and case-management workflows under strict audit and governance requirements.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Owned the design and delivery of secure API platforms integrating third-party services, enforcing authentication, authorisation, and encryption for financially sensitive data.</span>
+                      <span>Designed secure API platforms integrating internal and third-party services, implementing OAuth2, authentication, authorisation and encryption controls for sensitive financial data.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Architected and operated asynchronous pipelines using AWS SNS, SQS, EventBridge, Lambda, and Step Functions to ensure scalability, resilience, and traceability.</span>
+                      <span>Designed and delivered event-driven AWS architectures using SNS, SQS, EventBridge and Step Functions, processing millions of eligibility and entitlement events annually while improving system resilience, traceability and auditability.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Established and maintained compliant cloud infrastructure using Terraform, embedding security, observability, and operational controls by default.</span>
+                      <span>Built and maintained AWS infrastructure using Terraform, embedding security, observability and operational controls as standard.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Acted as a senior technical presence within teams: mentoring engineers, leading refinement and architectural discussions, and maintaining delivery standards aligned to regulatory expectations.</span>
+                      <span>Mentored engineers, led architectural discussions and contributed to technical decision-making across multiple delivery teams. Responsible for epic planning & weekly backlog refinement.</span>
                     </li>
                   </ul>
                   
                   {/* Swarm Energy */}
                   <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
-                    <h4 className="font-bold text-slate-900 dark:text-slate-100 mb-3 text-lg">
-                      <a 
-                        href="https://help.swarm.eco/portal/en/home" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors inline-flex items-center gap-1.5 group"
-                      >
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                    <div>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-1">
                         Swarm Energy Limited
-                        <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                      </a>
-                    </h4>
+                      </h3>
+                      <p className="text-slate-600 dark:text-slate-400 font-medium">
+                        <a 
+                          href="https://opencastsoftware.com/insights/press-releases/tech-partnership-to-create-new-energy-app" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-1.5 group"
+                        >
+                          Home Energy Management System
+                          <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                    
                     <ul className="space-y-2 text-slate-700 dark:text-slate-300">
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Developed cloud-native microservices performing daily cost and usage calculations, continuously ingesting high-volume device data to drive downstream automation and financial outcomes.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Designed and implemented Kotlin and Spring WebFlux services responsible for optimising residential battery charging schedules using dynamic energy tariffs, device telemetry and household consumption data.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Implemented secure key management and encryption using AWS KMS, Auth0, and Spring Security to protect commercially sensitive credentials.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Built event-driven workflows using Kafka, EventBridge and AWS Lambda to execute daily optimisation processes and automate charging decisions across connected energy devices.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Built webhook-driven ingestion pipelines using API Gateway, EventBridge, and Lambda, ensuring reliable integration with third-party providers.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Implemented secure authentication, key management and encryption using Auth0, Spring Security and AWS KMS to protect customer and provider credentials.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Designed infrastructure using Terraform to support scalable, fault-tolerant, business-critical production workloads.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Built resilient ingestion pipelines integrating third-party energy providers including Octopus Energy, using API Gateway, EventBridge and Lambda to process tariff and consumption data.</span>
+                      </li>
+                      <li className="flex gap-3">
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Designed and maintained AWS infrastructure with Terraform, supporting scalable, fault-tolerant production systems and automated deployment pipelines.</span>
                       </li>
                     </ul>
                   </div>
 
                   {/* DWP Projects */}
                   <div className="mt-6 pt-6 border-t border-slate-200 dark:border-slate-700">
-                    <h4 className="font-bold text-slate-900 dark:text-slate-100 mb-3 text-lg">
-                      <a 
-                        href="https://www.gov.uk/government/organisations/department-for-work-pensions" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors inline-flex items-center gap-1.5 group"
-                      >
-                        Financial Eligibility & Decisioning Platforms (DWP)
-                        <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>
-                      </a>
-                    </h4>
+                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                    <div>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-1">
+                        Department For Work And Pensions
+                      </h3>
+                      <p className="text-slate-600 dark:text-slate-400 font-medium">
+                        <a 
+                          href="https://www.gov.uk/government/organisations/department-for-work-pensions" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors inline-flex items-center gap-1.5 group"
+                        >
+                          Financial Eligibility & Decisions Platforms
+                          <svg className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
                     <ul className="space-y-2 text-slate-700 dark:text-slate-300">
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Designed and delivered backend services underpinning financial eligibility, entitlement, and case-management workflows, replacing legacy systems with modern microservice architectures.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Designed and delivered backend services supporting financial eligibility, entitlement and case-management workflows, replacing legacy platforms with modern cloud-native microservices.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Built rules-driven decisioning APIs using Node.js and Java, subject to governance, audit, and regulatory approval.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Built rules-driven decisioning APIs in Java and Node.js responsible for determining benefit eligibility and entitlement outcomes under strict governance and regulatory controls.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
                         <span>Migrated critical workflows from monolithic systems to event-driven architectures, improving scalability, maintainability, and operational resilience.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Assumed technical leadership responsibilities during delivery-critical phases, including architectural ownership and cross-team coordination.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Provided technical leadership during delivery-critical phases, including architectural ownership, risk management and cross-team coordination.</span>
                       </li>
                       <li className="flex gap-3">
-                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▹</span>
-                        <span>Work recognised via government award shortlisting, contributing to subsequent successful programme bids.</span>
+                        <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
+                        <span>Contributed to a programme shortlisted for government awards, helping secure follow-on delivery work and subsequent programme investment.</span>
                       </li>
                     </ul>
                   </div>
@@ -233,7 +249,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-1">
-                        Full-Stack Software Engineer
+                        Software Engineer
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400 font-medium">
                         <a 
@@ -256,15 +272,19 @@ export default function Home() {
                   <ul className="space-y-2.5 text-slate-700 dark:text-slate-300">
                     <li className="flex gap-3">
                       <span className="text-indigo-500 dark:text-indigo-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Contributed to backend and frontend development for large-scale migration from legacy systems to modern microservice architectures.</span>
+                      <span>Contributed to the development of a flagship multi-tenant learning management platform, supporting weekly production releases for enterprise and educational customers.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-indigo-500 dark:text-indigo-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Delivered new services adhering to TDD principles and modern agile delivery practices.</span>
+                      <span>Delivered backend and frontend functionality across the platform, balancing rapid feature delivery with maintainability, testing and long-term technical quality, serving thousands of learners.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-indigo-500 dark:text-indigo-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Participated in stakeholder demonstrations and technical walkthroughs, communicating complex system behaviour clearly to non-technical audiences.</span>
+                      <span>Collaborated closely with QA, product and design teams to deliver customer-facing features and continuously improve the user experience.</span>
+                    </li>
+                    <li className="flex gap-3">
+                      <span className="text-indigo-500 dark:text-indigo-400 mt-1.5 flex-shrink-0">▸</span>
+                      <span>Conducted technical spikes and proof-of-concept work to evaluate architectural approaches and inform engineering decisions.</span>
                     </li>
                   </ul>
                 </div>
@@ -278,7 +298,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-1">
-                        Full-Stack Software Engineer Intern
+                        Software Engineer Intern
                       </h3>
                       <p className="text-slate-600 dark:text-slate-400 font-medium">
                         <a 
@@ -301,15 +321,15 @@ export default function Home() {
                   <ul className="space-y-2.5 text-slate-700 dark:text-slate-300">
                     <li className="flex gap-3">
                       <span className="text-purple-500 dark:text-purple-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Key contributor to the delivery of a flagship learning management platform, supporting weekly production releases.</span>
+                      <span>Contributed to the modernisation of the GOV.UK digital tachograph service, helping migrate functionality from legacy applications to modern microservice-based architectures.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-purple-500 dark:text-purple-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Balanced rapid feature delivery with technical quality through code reviews, collaboration with QA, and close alignment with product design.</span>
+                      <span>Developed backend and frontend components within a cross-functional agile team, delivering new services using TDD and modern software engineering practices.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-purple-500 dark:text-purple-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Conducted exploratory technical spikes to inform architectural decisions and continuous improvement.</span>
+                      <span>Participated in stakeholder demonstrations and technical walkthroughs, communicating technical solutions and system behaviour to both technical and non-technical audiences.</span>
                     </li>
                   </ul>
                 </div>
@@ -322,18 +342,30 @@ export default function Home() {
         <section className="mb-16">
           <div className="flex items-center gap-3 mb-10">
             <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100">
-              Skills
+              Technical Expertise
             </h2>
             <div className="flex-1 h-px bg-gradient-to-r from-slate-300 via-slate-200 to-transparent dark:from-slate-700 dark:via-slate-800"></div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl p-5 border border-slate-200/50 dark:border-slate-700/50 shadow-sm hover:shadow-md transition-all">
               <h3 className="font-bold text-slate-900 dark:text-slate-100 mb-4 text-lg">
-                Core Backend & Platform
+                Backend & APIs
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Java', 'Kotlin', 'Spring Boot', 'WebFlux', 'Microservices', 'Event-Driven Architecture'].map((skill) => (
+                {['Java', 'Kotlin', 'Spring Boot', 'Spring WebFlux', 'REST APIs', 'OAuth2 / OIDC'].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30 text-blue-700 dark:text-blue-300 rounded-lg text-sm font-medium border border-blue-200/50 dark:border-blue-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl p-5 border border-slate-200/50 dark:border-slate-700/50 shadow-sm hover:shadow-md transition-all">
+              <h3 className="font-bold text-slate-900 dark:text-slate-100 mb-4 text-lg">
+                Distributed Systems & Messaging
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {['Kafka', 'SNS', 'SQS', 'EventBridge', 'Microservices', 'Event-Driven Architecture'].map((skill) => (
+                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30 text-indigo-700 dark:text-indigo-300 rounded-lg text-sm font-medium border border-indigo-200/50 dark:border-indigo-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
                 ))}
@@ -344,8 +376,8 @@ export default function Home() {
                 Cloud & Infrastructure
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['AWS Lambda', 'SNS/SQS', 'EventBridge', 'API Gateway', 'Terraform', 'Docker'].map((skill) => (
-                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30 text-indigo-700 dark:text-indigo-300 rounded-lg text-sm font-medium border border-indigo-200/50 dark:border-indigo-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
+                {['AWS', 'Lambda', 'API Gateway', 'Terraform', 'Docker', 'Infrastructure as Code'].map((skill) => (
+                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 text-purple-700 dark:text-purple-300 rounded-lg text-sm font-medium border border-purple-200/50 dark:border-purple-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
                 ))}
@@ -356,8 +388,8 @@ export default function Home() {
                 Security & Data
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['Secure REST APIs', 'Auth0', 'AWS KMS', 'PostgreSQL', 'MongoDB'].map((skill) => (
-                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 text-purple-700 dark:text-purple-300 rounded-lg text-sm font-medium border border-purple-200/50 dark:border-purple-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
+                {['Authentication & Authorisation', 'Secure API Design', 'AWS KMS', 'PostgreSQL', 'MongoDB'].map((skill) => (
+                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30 text-green-700 dark:text-green-300 rounded-lg text-sm font-medium border border-green-200/50 dark:border-green-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
                 ))}
@@ -368,8 +400,8 @@ export default function Home() {
                 Engineering Practices
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['TDD', 'BDD', 'Agile Delivery', 'Regulated Environments'].map((skill) => (
-                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-950/30 dark:to-emerald-950/30 text-green-700 dark:text-green-300 rounded-lg text-sm font-medium border border-green-200/50 dark:border-green-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
+                {['TDD', 'BDD', 'CI/CD', 'Observability', 'Regulated Environments'].map((skill) => (
+                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 text-amber-700 dark:text-amber-300 rounded-lg text-sm font-medium border border-amber-200/50 dark:border-amber-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
                 ))}
@@ -380,19 +412,7 @@ export default function Home() {
                 Frontend
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['TypeScript', 'Node.js', 'React', 'CSS'].map((skill) => (
-                  <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 text-amber-700 dark:text-amber-300 rounded-lg text-sm font-medium border border-amber-200/50 dark:border-amber-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-xl p-5 border border-slate-200/50 dark:border-slate-700/50 shadow-sm hover:shadow-md transition-all">
-              <h3 className="font-bold text-slate-900 dark:text-slate-100 mb-4 text-lg">
-                Other Technologies
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {['C, C++', 'C#, .NET', 'Ruby, Rails', 'PHP, Laravel'].map((skill) => (
+                {['TypeScript', 'React', 'Node.js', 'CSS'].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-slate-100 dark:bg-slate-800/50 text-slate-600 dark:text-slate-400 rounded-lg text-sm font-medium border border-slate-200 dark:border-slate-700 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
