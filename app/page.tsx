@@ -134,11 +134,11 @@ export default function Home() {
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Designed and delivered event-driven AWS architectures using SNS, SQS, EventBridge and Step Functions, processing millions of eligibility and entitlement events annually while improving system resilience, traceability and auditability.</span>
+                      <span>Designed and delivered event-driven AWS architectures using SNS, SQS, EventBridge and Step Functions, processing large quantities of eligibility and entitlement events while improving system resilience, traceability and auditability.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
-                      <span>Built and maintained AWS infrastructure using Terraform, embedding security, observability and operational controls as standard.</span>
+                      <span>Contributed to AWS infrastructure using Terraform, embedding security, observability and operational controls as standard.</span>
                     </li>
                     <li className="flex gap-3">
                       <span className="text-blue-500 dark:text-blue-400 mt-1.5 flex-shrink-0">▸</span>
@@ -176,7 +176,7 @@ export default function Home() {
                       </li>
                       <li className="flex gap-3">
                         <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
-                        <span>Built event-driven workflows using Kafka, EventBridge and AWS Lambda to execute daily optimisation processes and automate charging decisions across connected energy devices.</span>
+                        <span>Built event-driven workflows using SNS, SQS, EventBridge and AWS Lambda to execute daily optimisation processes and automate charging / offloading decisions across connected energy devices.</span>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
@@ -188,7 +188,7 @@ export default function Home() {
                       </li>
                       <li className="flex gap-3">
                         <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
-                        <span>Designed and maintained AWS infrastructure with Terraform, supporting scalable, fault-tolerant production systems and automated deployment pipelines.</span>
+                        <span>Contributed to AWS infrastructure with Terraform, supporting scalable, fault-tolerant production systems and automated deployment pipelines.</span>
                       </li>
                     </ul>
                   </div>
@@ -222,7 +222,7 @@ export default function Home() {
                       </li>
                       <li className="flex gap-3">
                         <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
-                        <span>Built rules-driven decisioning APIs in Java and Node.js responsible for determining benefit eligibility and entitlement outcomes under strict governance and regulatory controls.</span>
+                        <span>Built rules-driven decisioning APIs in Java and JavaScript responsible for determining benefit eligibility and entitlement outcomes under strict governance and regulatory controls.</span>
                       </li>
                       <li className="flex gap-3">
                         <span className="text-indigo-500 dark:text-indigo-400 mt-1 flex-shrink-0">▸</span>
@@ -376,7 +376,7 @@ export default function Home() {
                 Cloud & Infrastructure
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['AWS', 'Lambda', 'API Gateway', 'Terraform', 'Docker', 'Infrastructure as Code'].map((skill) => (
+                {['AWS', 'Lambda', 'API Gateway', 'Terraform', 'Docker', 'Redis', 'Infrastructure as Code'].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-950/30 dark:to-pink-950/30 text-purple-700 dark:text-purple-300 rounded-lg text-sm font-medium border border-purple-200/50 dark:border-purple-800/50 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
@@ -412,7 +412,7 @@ export default function Home() {
                 Frontend
               </h3>
               <div className="flex flex-wrap gap-2">
-                {['TypeScript', 'React', 'Node.js', 'CSS'].map((skill) => (
+                {['TypeScript', 'JavaScript', 'React', 'Node.js', 'CSS'].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-slate-100 dark:bg-slate-800/50 text-slate-600 dark:text-slate-400 rounded-lg text-sm font-medium border border-slate-200 dark:border-slate-700 hover:scale-105 hover:shadow-sm transition-transform cursor-default">
                     {skill}
                   </span>
